@@ -9,7 +9,7 @@ test("Windows Handling", async({browser})=>{
     await amazonHomePage.fill ("iphone17")
     const submitBtn = await page.locator("//input[@id='nav-search-submit-button']");
     await submitBtn.click();
+console.log(baskar)
 
-    
     })
 

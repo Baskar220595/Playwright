@@ -23,10 +23,6 @@ test("Windows Handling", async({browser})=>{
 
 
 
-
-
-
-
     //await expect(page).toHaveURL("https://www.amazon.in/s?k=iphone+17&crid=XTQBWT53TMWO&sprefix=iphone+17%2Caps%2C249&ref=nb_sb_noss_2")
     // (//h2[contains(@aria-label,'iPhone')])[1]
     // const AmazonPageTwo = await page.locator("//input[@id='twotabsearchtextbox']");

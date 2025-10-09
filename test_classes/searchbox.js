@@ -14,7 +14,7 @@ export class Searchbox{
     async searchboxFill(locationYouNeed,hotelYouAreLookingFor,roomTypeYouNeed,numberOfRoomsReq,DateIn,APR,CPR){
         await this.location.selectOption({label:locationYouNeed})
         await this.hotels.selectOption({label:hotelYouAreLookingFor})
-        await this.roomType.selectOption({label:roomTypeYouNeed})
+        await this.roomType.selectOption({label:roomTypeYouNeed})   
         await this.numberOfRooms.selectOption({label:numberOfRoomsReq})
         await this.checkInDate.fill(DateIn)
         await this.checkOutDate.fill(DateIn+2)
@@ -22,8 +22,4 @@ export class Searchbox{
         await this.childrenPerRoom.selectOption({label:CPR})
         await this.submitBtn.click()
     }
-
-
-
-
 }

@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - heading "Automation Demo Site" [level=1] [ref=e10]
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16]:
+            - /url: Index.html
+        - listitem [ref=e17]:
+          - link "Register" [ref=e18]:
+            - /url: Register.html
+        - listitem [ref=e19]:
+          - link "WebTable" [ref=e20]:
+            - /url: WebTable.html
+        - listitem [ref=e21]:
+          - link "SwitchTo" [ref=e22]:
+            - /url: SwitchTo.html
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link "Widgets" [ref=e25]:
+            - /url: Widgets.html
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link "Interactions" [ref=e28]:
+            - /url: Interactions.html
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link "Video" [ref=e31]:
+            - /url: SwitchTo.html
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link "WYSIWYG" [ref=e34]:
+            - /url: WYSIWYG.html
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link "More" [ref=e37]:
+            - /url: "#"
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link "Practice Site" [ref=e40]:
+            - /url: http://practice.automationtesting.in/
+  - generic [ref=e41]:
+    - generic [ref=e45]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Single Iframe" [ref=e50]:
+            - /url: "#Single"
+        - listitem [ref=e51]:
+          - link "Iframe with in an Iframe" [ref=e52]:
+            - /url: "#Multiple"
+      - iframe [ref=e54]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f1e3]:
+          - heading "iFrame Demo" [level=5] [ref=f1e4]
+          - textbox [ref=f1e7]
+    - generic [ref=e56]:
+      - insertion [ref=e59]:
+        - generic [ref=e61]:
+          - generic "These are topics related to the article that might interest you" [ref=e62]: Discover more
+          - link "Website testing platform" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: Website testing platform
+          - link "Project management tools" [ref=e67] [cursor=pointer]:
+            - img [ref=e69]
+            - text: Project management tools
+          - link "Web design templates" [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+            - text: Web design templates
+          - link "Web design software" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - text: Web design software
+          - link "Web automation services" [ref=e79] [cursor=pointer]:
+            - img [ref=e81]
+            - text: Web automation services
+          - link "Performance testing tools" [ref=e83] [cursor=pointer]:
+            - img [ref=e85]
+            - text: Performance testing tools
+          - link "Software testing tutorials" [ref=e87] [cursor=pointer]:
+            - img [ref=e89]
+            - text: Software testing tutorials
+          - link "Agile methodology training" [ref=e91] [cursor=pointer]:
+            - img [ref=e93]
+            - text: Agile methodology training
+          - link "Cybersecurity software" [ref=e95] [cursor=pointer]:
+            - img [ref=e97]
+            - text: Cybersecurity software
+          - link "Test automation" [ref=e99] [cursor=pointer]:
+            - img [ref=e101]
+            - text: Test automation
+      - insertion [ref=e105]:
+        - generic [ref=e107]:
+          - generic "These are topics related to the article that might interest you" [ref=e108]: Discover more
+          - link "Selenium training courses" [ref=e109] [cursor=pointer]:
+            - img [ref=e111]
+            - text: Selenium training courses
+          - link "Automation software" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - text: Automation software
+          - link "QA testing services" [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - text: QA testing services
+          - link "Business automation tools" [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - text: Business automation tools
+          - link "Frontend development course fees" [ref=e125] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Frontend development course fees
+          - link "Web browser" [ref=e129] [cursor=pointer]:
+            - img [ref=e131]
+            - text: Web browser
+          - link "IT consulting services pricing" [ref=e133] [cursor=pointer]:
+            - img [ref=e135]
+            - text: IT consulting services pricing
+          - link "Web testing services quote" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Web testing services quote
+          - link "Buy automation testing books" [ref=e141] [cursor=pointer]:
+            - img [ref=e143]
+            - text: Buy automation testing books
+          - link "Selenium WebDriver training cost" [ref=e145] [cursor=pointer]:
+            - img [ref=e147]
+            - text: Selenium WebDriver training cost
+      - insertion [ref=e151]:
+        - generic [ref=e153]:
+          - generic "These are topics related to the article that might interest you" [ref=e154]: Discover more
+          - link "Testing software" [ref=e155] [cursor=pointer]:
+            - img [ref=e157]
+            - text: Testing software
+          - link "Website building tools" [ref=e159] [cursor=pointer]:
+            - img [ref=e161]
+            - text: Website building tools
+          - link "Front-end development" [ref=e163] [cursor=pointer]:
+            - img [ref=e165]
+            - text: Front-end development
+          - link "QA testing services" [ref=e167] [cursor=pointer]:
+            - img [ref=e169]
+            - text: QA testing services
+          - link "Business automation tools" [ref=e171] [cursor=pointer]:
+            - img [ref=e173]
+            - text: Business automation tools
+          - link "Manual testing services pricing" [ref=e175] [cursor=pointer]:
+            - img [ref=e177]
+            - text: Manual testing services pricing
+          - link "Selenium automation tools price" [ref=e179] [cursor=pointer]:
+            - img [ref=e181]
+            - text: Selenium automation tools price
+          - link "Buy automation testing books" [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - text: Buy automation testing books
+          - link "Automation testing tools" [ref=e187] [cursor=pointer]:
+            - img [ref=e189]
+            - text: Automation testing tools
+          - link "Selenium automation tools" [ref=e191] [cursor=pointer]:
+            - img [ref=e193]
+            - text: Selenium automation tools
+      - insertion [ref=e197]:
+        - generic [ref=e199]:
+          - generic "These are topics related to the article that might interest you" [ref=e200]: Discover more
+          - link "Automation Testing" [ref=e201] [cursor=pointer]:
+            - img [ref=e203]
+            - text: Automation Testing
+          - link "Automation project management tools" [ref=e205] [cursor=pointer]:
+            - img [ref=e207]
+            - text: Automation project management tools
+          - link "QA testing certification" [ref=e209] [cursor=pointer]:
+            - img [ref=e211]
+            - text: QA testing certification
+          - link "Automation framework development cost" [ref=e213] [cursor=pointer]:
+            - img [ref=e215]
+            - text: Automation framework development cost
+          - link "HTML iframe tutorials" [ref=e217] [cursor=pointer]:
+            - img [ref=e219]
+            - text: HTML iframe tutorials
+          - link "Web browser" [ref=e221] [cursor=pointer]:
+            - img [ref=e223]
+            - text: Web browser
+          - link "WebDriver framework" [ref=e225] [cursor=pointer]:
+            - img [ref=e227]
+            - text: WebDriver framework
+          - link "Purchase website testing tools" [ref=e229] [cursor=pointer]:
+            - img [ref=e231]
+            - text: Purchase website testing tools
+          - link "Selenium automation tools price" [ref=e233] [cursor=pointer]:
+            - img [ref=e235]
+            - text: Selenium automation tools price
+          - link "Website building tools" [ref=e237] [cursor=pointer]:
+            - img [ref=e239]
+            - text: Website building tools
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e246]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e247]:
+          - link "" [ref=e248]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e249]: 
+          - link "" [ref=e250]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e251]: 
+          - link "" [ref=e252]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e253]: 
+          - link "" [ref=e254]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e255]: 
+          - link "" [ref=e256]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e257]: 
+```

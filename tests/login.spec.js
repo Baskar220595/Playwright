@@ -17,7 +17,6 @@ test("Adactin-obj-for-login",async({page})=>{
     await searchLocation.searchboxFill("Adelaide","Hotel Cornice","Deluxe","1 - One","12/10/2025","2 - Two","0 - None")
     await sltnHotel.sltHotel()
 
-
     await page.waitForTimeout(3000)
 })
 

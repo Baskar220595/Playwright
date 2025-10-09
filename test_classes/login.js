@@ -8,9 +8,10 @@ export class LoginPage{
         this.password = page.locator("//input[@id='password']")
         this.loginBtn = page.locator("//input[@id='login']")
     }
-    async loginCrd(){
+    async loginCrd(username,password){
         await this.username.fill(username)
         await this.password.fill(password)
         await this.loginBtn.click()
     }
+    
 }

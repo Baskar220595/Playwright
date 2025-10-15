@@ -1,10 +1,11 @@
-import{Before,After} from "@cucumber/cucumber"
-import{LoginPage} from "../pages/login.js";
+import { Given, When, Then, Before, After } from "@cucumber/cucumber";
+import { LoginPage } from "../../test_classes/login";
 
 Before(async()=>{
-    await this.lunchBrowser();
-    this.loginPage = new LoginPage(this.page) 
+    await this.launchBrowser();
+    this.loginPage = new LoginPage(this.page)
 })
+
 After(async()=>{
     await this.closeBrowser();
 })

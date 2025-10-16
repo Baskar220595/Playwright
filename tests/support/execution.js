@@ -3,7 +3,7 @@ import { chromium } from "@playwright/test";
 
 class Execution{
     constructor(){
-        this.browser = null;
+        this.browser = null;//
         this.context = null;
         this.page = null;
     }

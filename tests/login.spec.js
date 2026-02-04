@@ -8,7 +8,7 @@ test("Adactin-obj-for-login",async({page})=>{
     const searchLocation = new Searchbox(page)
     const sltnHotel = new HotelSelection(page)
 
-    await logPage.nav()
+    await logPage.navigate()
     await logPage.loginCrd("Baskar220595","E943T5")
 // })
 

@@ -1,7 +1,7 @@
 import {test} from "@playwright/test"
-import {LoginPage} from "../test_classes/login"
-import {Searchbox} from "../test_classes/searchbox"
-import { HotelSelection } from "../test_classes/selectHotel"
+import {LoginPage} from "../test_classes/login.js"
+import {Searchbox} from "../test_classes/searchbox.js"
+import { HotelSelection } from "../test_classes/selectHotel.js"
 
 test("Adactin-obj-for-login",async({page})=>{
     const logPage = new LoginPage(page)

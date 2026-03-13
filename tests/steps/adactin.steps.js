@@ -2,7 +2,7 @@ import {Given, When, Then} from "@cucumber/cucumber";
 import { LoginPage } from "../../test_classes/login.js";
 
 let loginPage;// undefined
-Given('navigate to atactin hotel app',async function () {
+Given('navigate to adactin hotel app',async function () {
     loginPage = new LoginPage(this.page)
     await loginPage.navigate();    
 });
